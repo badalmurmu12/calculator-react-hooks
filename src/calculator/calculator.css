@@ -1,0 +1,48 @@
+.outer-layout{
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+
+}
+
+.result-display{
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: grey;
+  text-align: right;
+  line-height: 50px;
+  font-size: 30px;
+  padding: 5px;
+    border-style: ridge;
+}
+.input-display{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center; 
+}
+.numpad{
+  width: 94px;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  line-height: 100px;
+  font-size: 36px;
+  background-color: rgba(82, 138, 158, 0.8);
+  color: red;
+  border-style: ridge;
+  cursor: pointer;
+}
+
+.numpad:hover{
+  background-color: rgba(66, 96, 107, 0.8);
+}
+.numpad:active{
+  background-color: rgba(51, 64, 68, 0.8);
+}
